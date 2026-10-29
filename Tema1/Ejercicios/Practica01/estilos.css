@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+header {
+    background-color: #F5A623;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    background-color: beige;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+.receta {
+    background-color: white;
+    color: #333;
+    box-shadow: 0 2 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.imagen-receta img {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.Caracteristicas ul{
+    list-style: square;
+    padding-left: 20px;
+}
+
+.Caracteristicas li {
+    margin-bottom: 10px;
+}
+
+.Ingredientes{
+    margin-top: 0.5rem;
+
+
+}
+
+.Ingredientes tr {
+    width: 100%;
+    border: collapse;
+
+}
+
+.Ingredientes th {
+    background-color: #F5A623;
+    color: white;
+    padding: 0.75rem 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Ingredientes td {
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid; color:black;
+    
+}
+
+.Ingredientes td:nth-child[even] {
+    color: #fafafa;
+}
+
+.Ingredientes tr:last-child td {
+    border-bottom: 0 ;
+}
