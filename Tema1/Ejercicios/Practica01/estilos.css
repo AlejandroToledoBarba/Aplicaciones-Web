@@ -5,18 +5,15 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    
-    
 }
 
 header {
     background-color: #F5A623;
-    color: #333;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 1rem;
-
 }
 
 header h1 {
@@ -28,24 +25,26 @@ main {
     padding: 2rem;
     justify-content: center;
     display: flex;
-
 }
 
 footer {
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: rgb(58, 57, 57);
+    color: white;
     text-align: center;
     padding: 15px;
 }
 
-.receta {
+.receta {   
     background-color: white;
     color: #333;
     box-shadow: 0 2 5px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     border-radius: 10px;
     padding: 10px;
+}
 
+.imagen-receta{
+    text-align: center;
 }
 
 .imagen-receta img {
@@ -53,6 +52,12 @@ footer {
     margin-bottom: 20px;
     max-width: 80%;
     border-radius: 10px;
+    padding: 0;
+}
+
+.Caracteristicas span{
+    font-weight: bold;
+    color: #F5A623;
 }
 
 .Caracteristicas ul{
@@ -67,14 +72,12 @@ footer {
 .Ingredientes{
     margin-top: 0.5rem;
 
-
 }
 
 .Ingredientes table {
     width: 100%;
     border: collapse;
     text-align: center;
-
 }
 
 .Ingredientes th {
@@ -87,16 +90,17 @@ footer {
 
 .Ingredientes td {
     padding: 0.65rem 1rem;
-    border-bottom: 1px solid; color:black;
-    
+    text-align: center;
+    border-bottom: 1px solid #eee;
 }
 
-.Ingredientes td:nth-child[even] {
-    color: #fafafa;
+.Ingredientes table tr:nth-child(odd) {
+    background-color: #fafafa;
 }
 
 .Ingredientes tr:last-child td {
     border-bottom: 0 ;
+    
 }
 
 .receta h1 {
